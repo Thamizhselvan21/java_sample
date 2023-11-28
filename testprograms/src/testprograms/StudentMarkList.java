@@ -61,7 +61,8 @@ public class StudentMarkList {
         students[0] = new MarkList(101, "Thamizh", 85, 90, 78);
         students[1] = new MarkList(102, "karthik", 65, 70, 75);
         students[2] = new MarkList(103, "aakash", 45, 30, 55);
-
+        
+        System.out.println("i m making changes ...");
         // Display details for each student
         for (MarkList student : students) {
             student.displayDetails();
